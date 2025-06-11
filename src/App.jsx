@@ -1,7 +1,22 @@
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Header from './components/Header'
 
 function App() {
-  return <div className="text-5xl text-center text-purple-600">LuxuryCars</div>
+  return (
+    <div className="">
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+            </>
+          }
+        />
+      </Routes>
+    </div>
+  )
 }
 
 export default App
