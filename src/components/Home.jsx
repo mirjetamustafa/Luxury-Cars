@@ -1,10 +1,10 @@
-import car from '../assets/bgCar.png'
+import { IoIosArrowForward } from 'react-icons/io'
 
 const Home = () => {
   return (
     <main>
       <section>
-        <div className="relative bg-gray-900 md:h-[90vh] h-[80vh]">
+        <div className="relative bg-gray-900 h-[80vh]">
           <div
             className="absolute inset-0 bg-cover bg-center z-0 "
             style={{
@@ -16,7 +16,7 @@ const Home = () => {
             <div className="absolute inset-0 bg-black/60"></div>
           </div>
 
-          <div className="relative grid md:grid-cols-2 h-110 content-center z-10">
+          <div className="relative grid md:grid-cols-2 h-140 content-center z-10">
             <div className="md:px-9 px-5">
               <h1 className="md:text-7xl text-6xl text-white font-bold">
                 Experience Luxury Driving
@@ -25,6 +25,39 @@ const Home = () => {
                 Discover our premium selection of high-performance vehicles for
                 an unparalleled driving experience.
               </p>
+
+              <div className="flex mt-9">
+                <button className="flex bg-white text-gray-900 font-bold rounded-md cursor-pointer px-4 py-3 hover:opacity-90">
+                  Browse Inventory
+                  <IoIosArrowForward className="mt-1.5 ml-2" />
+                </button>
+                <button className="flex bg-transparent border border-white text-white font-bold rounded-md cursor-pointer px-4 py-3 ml-4 hover:bg-linear-to-b hover:from-white/40 hover:to-white/15 transition duration-700 ease-in-out ">
+                  Book Test Drive
+                  <IoIosArrowForward className="mt-1.5 ml-2" />
+                </button>
+              </div>
+            </div>
+            <div className="flex justify-end content-end mt-100 mx-9 max-md:hidden">
+              <div className="flex bg-white rounded-md p-3 w-70">
+                <p className="flex flex-col text-gray-500 text-sm mr-2">
+                  0-60 mph
+                  <span className="text-lg font-bold text-gray-900 text-center">
+                    3.2s
+                  </span>
+                </p>
+                <p className="flex flex-col text-gray-500 text-sm mx-2">
+                  Top Speed
+                  <span className="text-lg font-bold text-gray-900 text-center">
+                    205 mph
+                  </span>
+                </p>
+                <p className="flex flex-col text-gray-500 text-sm ml-2">
+                  Horsepower
+                  <span className="text-lg font-bold text-gray-900 text-center">
+                    573 hp
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
