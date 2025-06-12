@@ -26,14 +26,13 @@ const Home = () => {
                 an unparalleled driving experience.
               </p>
 
-              <div className="flex mt-9">
-                <button className="flex bg-white text-gray-900 font-bold rounded-md cursor-pointer px-4 py-3 hover:opacity-90">
+              <div className="flex max-md:flex-col max-md:justify-center mt-9 ">
+                <button className="flex bg-white text-gray-900 font-bold rounded-md cursor-pointer md:px-4 py-3 hover:opacity-90 max-md:pl-30">
                   Browse Inventory
                   <IoIosArrowForward className="mt-1.5 ml-2" />
                 </button>
-                <button className="flex bg-transparent border border-white text-white font-bold rounded-md cursor-pointer px-4 py-3 ml-4 hover:bg-linear-to-b hover:from-white/40 hover:to-white/15 transition duration-700 ease-in-out ">
+                <button className="flex bg-transparent border border-white text-white font-bold rounded-md cursor-pointer md:px-4 py-3 md:ml-4 hover:bg-linear-to-b hover:from-white/40 hover:to-white/15 transition duration-700 ease-in-out max-md:mt-9 max-md:pl-30">
                   Book Test Drive
-                  <IoIosArrowForward className="mt-1.5 ml-2" />
                 </button>
               </div>
             </div>
