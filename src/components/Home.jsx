@@ -31,7 +31,7 @@ const Home = () => {
                   Browse Inventory
                   <IoIosArrowForward className="mt-1.5 ml-2" />
                 </button>
-                <button className="flex bg-transparent border border-white text-white font-bold rounded-md cursor-pointer md:px-4 py-3 md:ml-4 hover:bg-linear-to-b hover:from-white/40 hover:to-white/15 transition duration-700 ease-in-out max-md:mt-9 max-md:pl-30">
+                <button className="flex bg-transparent border border-white text-white font-bold rounded-md cursor-pointer md:px-4 py-3 md:ml-4 hover:bg-linear-to-b hover:from-white/40 hover:to-white/15 transition duration-300 ease-in-out max-md:mt-9 max-md:pl-30">
                   Book Test Drive
                 </button>
               </div>
