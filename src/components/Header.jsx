@@ -7,7 +7,7 @@ import { IoCloseSharp } from 'react-icons/io5'
 const Header = () => {
   const [burgerBtn, setBurgerBtn] = useState('false')
   return (
-    <header className="p-5 bg-white shadow-sm static top-0">
+    <header className="p-5 bg-white shadow-sm sticky z-40 top-0">
       <nav className="flex justify-between">
         <h3 className="text-xl font-bold mt-2">LuxuryCars</h3>
         {/* Mobile */}

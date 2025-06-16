@@ -1,4 +1,5 @@
 import { IoIosArrowForward } from 'react-icons/io'
+import Cars from './Cars'
 
 const Home = () => {
   return (
@@ -60,6 +61,16 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="py-9 bg-gray-50">
+        <h1 className="text-3xl font-bold text-center">
+          Our Premium Collection
+        </h1>
+        <p className="text-lg text-gray-500 text-center">
+          Explore our handpicked selection of luxury vehicles
+        </p>
+        <Cars />
       </section>
     </main>
   )
