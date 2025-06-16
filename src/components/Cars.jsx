@@ -70,7 +70,7 @@ const Cars = () => {
       </div>
       {category === 'all' ? (
         <div className="grid md:grid-cols-3 gap-2">
-          <div className="bg-white shadow-md rounded-md overflow-hidden w-full max-w-sm">
+          <div className="bg-white shadow-md rounded-md overflow-hidden w-full max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1.5 hover:scale-100 cursor-pointer">
             <div className="h-42 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
@@ -78,11 +78,160 @@ const Cars = () => {
                 className="h-full w-full object-cover"
               />
             </div>
+            <div className="flex justify-between mx-9 my-5">
+              <div className="">
+                <h1 className="text-xl font-bold">911 Carrera</h1>
+                <span className="text-gray-500">Porsche</span>
+              </div>
+              <div className="">
+                <h1 className="text-xl font-bold">$106,100</h1>
+                <span className="text-gray-500">$1299/mo</span>
+              </div>
+            </div>
+            <div className="flex mt-9 mx-20 gap-8">
+              <p className="text-sm text-gray-700">gasoline</p>
+              <p className="text-sm text-gray-700">50 mi</p>
+              <p className="text-sm text-gray-700">Automatic</p>
+            </div>
+            <button className="bg-black w-87 text-white rounded-md py-3 mx-5 my-5 cursor-pointer hover:opacity-85">
+              View Details
+            </button>
           </div>
-          <div className="bg-blue-400 h-20 w-full"></div>
-          <div className="bg-blue-400 h-20 w-full"></div>
-          <div className="bg-blue-400 h-20 w-full"></div>
-          <div className="bg-blue-400 h-20 w-full"></div>
+          <div className="bg-white shadow-md rounded-md overflow-hidden w-full max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1.5 hover:scale-100 cursor-pointer">
+            <div className="h-42 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt=""
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="flex justify-between mx-9 my-5">
+              <div className="">
+                <h1 className="text-xl font-bold">911 Carrera</h1>
+                <span className="text-gray-500">Porsche</span>
+              </div>
+              <div className="">
+                <h1 className="text-xl font-bold">$106,100</h1>
+                <span className="text-gray-500">$1299/mo</span>
+              </div>
+            </div>
+            <div className="flex mt-9 mx-20 gap-8">
+              <p className="text-sm text-gray-700">gasoline</p>
+              <p className="text-sm text-gray-700">50 mi</p>
+              <p className="text-sm text-gray-700">Automatic</p>
+            </div>
+            <button className="bg-black w-87 text-white rounded-md py-3 mx-5 my-5 cursor-pointer hover:opacity-85">
+              View Details
+            </button>
+          </div>
+          <div className="bg-white shadow-md rounded-md overflow-hidden w-full max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1.5 hover:scale-100 cursor-pointer">
+            <div className="h-42 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt=""
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="flex justify-between mx-9 my-5">
+              <div className="">
+                <h1 className="text-xl font-bold">911 Carrera</h1>
+                <span className="text-gray-500">Porsche</span>
+              </div>
+              <div className="">
+                <h1 className="text-xl font-bold">$106,100</h1>
+                <span className="text-gray-500">$1299/mo</span>
+              </div>
+            </div>
+            <div className="flex mt-9 mx-20 gap-8">
+              <p className="text-sm text-gray-700">gasoline</p>
+              <p className="text-sm text-gray-700">50 mi</p>
+              <p className="text-sm text-gray-700">Automatic</p>
+            </div>
+            <button className="bg-black w-87 text-white rounded-md py-3 mx-5 my-5 cursor-pointer hover:opacity-85">
+              View Details
+            </button>
+          </div>
+          <div className="bg-white shadow-md rounded-md overflow-hidden w-full max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1.5 hover:scale-100 cursor-pointer">
+            <div className="h-42 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt=""
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="flex justify-between mx-9 my-5">
+              <div className="">
+                <h1 className="text-xl font-bold">911 Carrera</h1>
+                <span className="text-gray-500">Porsche</span>
+              </div>
+              <div className="">
+                <h1 className="text-xl font-bold">$106,100</h1>
+                <span className="text-gray-500">$1299/mo</span>
+              </div>
+            </div>
+            <div className="flex mt-9 mx-20 gap-8">
+              <p className="text-sm text-gray-700">gasoline</p>
+              <p className="text-sm text-gray-700">50 mi</p>
+              <p className="text-sm text-gray-700">Automatic</p>
+            </div>
+            <button className="bg-black w-87 text-white rounded-md py-3 mx-5 my-5 cursor-pointer hover:opacity-85">
+              View Details
+            </button>
+          </div>
+          <div className="bg-white shadow-md rounded-md overflow-hidden w-full max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1.5 hover:scale-100 cursor-pointer">
+            <div className="h-42 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt=""
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="flex justify-between mx-9 my-5">
+              <div className="">
+                <h1 className="text-xl font-bold">911 Carrera</h1>
+                <span className="text-gray-500">Porsche</span>
+              </div>
+              <div className="">
+                <h1 className="text-xl font-bold">$106,100</h1>
+                <span className="text-gray-500">$1299/mo</span>
+              </div>
+            </div>
+            <div className="flex mt-9 mx-20 gap-8">
+              <p className="text-sm text-gray-700">gasoline</p>
+              <p className="text-sm text-gray-700">50 mi</p>
+              <p className="text-sm text-gray-700">Automatic</p>
+            </div>
+            <button className="bg-black w-87 text-white rounded-md py-3 mx-5 my-5 cursor-pointer hover:opacity-85">
+              View Details
+            </button>
+          </div>
+          <div className="bg-white shadow-md rounded-md overflow-hidden w-full max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-1.5 hover:scale-100 cursor-pointer">
+            <div className="h-42 overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                alt=""
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <div className="flex justify-between mx-9 my-5">
+              <div className="">
+                <h1 className="text-xl font-bold">911 Carrera</h1>
+                <span className="text-gray-500">Porsche</span>
+              </div>
+              <div className="">
+                <h1 className="text-xl font-bold">$106,100</h1>
+                <span className="text-gray-500">$1299/mo</span>
+              </div>
+            </div>
+            <div className="flex mt-9 mx-20 gap-8">
+              <p className="text-sm text-gray-700">gasoline</p>
+              <p className="text-sm text-gray-700">50 mi</p>
+              <p className="text-sm text-gray-700">Automatic</p>
+            </div>
+            <button className="bg-black w-87 text-white rounded-md py-3 mx-5 my-5 cursor-pointer hover:opacity-85">
+              View Details
+            </button>
+          </div>
         </div>
       ) : category === 'sedan' ? (
         <div className="grid md:grid-cols-3 gap-2">
