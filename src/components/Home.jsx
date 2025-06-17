@@ -1,9 +1,10 @@
 import { IoIosArrowForward } from 'react-icons/io'
 import Cars from './Cars'
+import { useState } from 'react'
 
 const Home = () => {
   return (
-    <main>
+    <main className="">
       <section>
         <div className="relative bg-gray-900 h-[80vh]">
           <div
